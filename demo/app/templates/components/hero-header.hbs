@@ -1,0 +1,11 @@
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Hello, World!</div>
+            <div class="intro-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            <a {{action 'showModal'}} class="page-scroll btn btn-xl">Learn More</a>
+        </div>
+    </div>
+</header>
+{{info-modal title="Learn More" showModal=showModal body=learnMoreData}}

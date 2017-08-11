@@ -1,0 +1,171 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        outline: none;
+    }
+    a {
+        color: #5b18ba;
+    }
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        color: #5b18ba;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    .text-muted {
+        color: #777777;
+    }
+    .text-primary {
+        color: #5b18ba;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.75;
+        .large {
+            font-size: 16px;
+        }
+    }
+    
+    .img-centered {
+        margin: 0 auto;
+    }
+    .bg-light-gray {
+        background-color: #eeeeee;
+    }
+    .bg-darkest-gray {
+        background-color: #222222;
+    }
+    .btn-primary {
+        color: white;
+        background-color: #5b18ba;
+        border-color: #ffffff;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    
+        &:hover,
+        &:focus,
+        &:active,
+        .active,
+        .open 
+        .dropdown-toggle.btn-primary {
+            color: white;
+            background-color: #5b18ba;
+            border-color: #ffffff;
+            background-image: none;
+            border-style: inset;
+        }
+        .btn-primary.disabled,
+        .btn-primary[disabled],
+        fieldset[disabled] .btn-primary,
+        .btn-primary.disabled:hover,
+        .btn-primary[disabled]:hover,
+        fieldset[disabled] .btn-primary:hover,
+        .btn-primary.disabled:focus,
+        .btn-primary[disabled]:focus,
+        fieldset[disabled] .btn-primary:focus,
+        .btn-primary.disabled:active,
+        .btn-primary[disabled]:active,
+        fieldset[disabled] .btn-primary:active,
+        .btn-primary.disabled.active,
+        .btn-primary[disabled].active,
+        fieldset[disabled] .btn-primary.active {
+            background-color: #ffffff;
+            border-color: #ffffff;
+        }
+    }
+    .badge {
+        color: #ffffff;
+        background-color: white;
+    }
+    .btn-xl {
+        color: white;
+        background-color: #5b18ba;
+        border-color: #5b18ba;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        border-radius: 3px;
+        font-size: 18px;
+        padding: 20px 40px;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        .open .dropdown-toggle.btn-xl {
+            color: white;
+            background-color: #5b18ba;
+            border-color: #5b18ba;
+            background-image: none;
+        }
+        .btn-xl.disabled,
+        .btn-xl[disabled],
+        fieldset[disabled] .btn-xl,
+        .btn-xl.disabled:hover,
+        .btn-xl[disabled]:hover,
+        fieldset[disabled] .btn-xl:hover,
+        .btn-xl.disabled:focus,
+        .btn-xl[disabled]:focus,
+        fieldset[disabled] .btn-xl:focus,
+        .btn-xl.disabled:active,
+        .btn-xl[disabled]:active,
+        fieldset[disabled] .btn-xl:active,
+        .btn-xl.disabled.active,
+        .btn-xl[disabled].active,
+        fieldset[disabled] .btn-xl.active {
+            background-color: #5b18ba;
+            border-color: #5b18ba;
+        }
+        .btn-xl .badge {
+            color: #5b18ba;
+            background-color: white;
+        }
+    }
+    section {
+        padding: 100px 0;
+        h2.section-heading {
+            font-size: 40px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        h3.section-subheading {
+            font-size: 16px;
+            font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-transform: none;
+            font-style: italic;
+            font-weight: 400;
+            margin-bottom: 75px;
+        }
+        .service-heading {
+            margin: 15px 0;
+            text-transform: none;
+        }
+    }
+    ul.social-buttons li a {
+        display: block;
+        background-color: #5b18ba;
+        height: 30px;
+        width: 30px;
+        border-radius: 25%;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+        outline: 0;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+}

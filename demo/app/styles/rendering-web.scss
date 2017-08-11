@@ -1,0 +1,17 @@
+#rendering-web{
+	background-color: #5b18ba;
+	color: #ffffff;
+	@media (max-width: 767px)
+	{
+		text-align:center;
+	}
+	.sub-heading{
+		p{
+			font-size: 15px;
+		    line-height: 30px;
+		    @media (min-width: 768px) {
+				font-size: 18px;
+			}
+		}
+	}
+}

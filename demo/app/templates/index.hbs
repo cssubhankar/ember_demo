@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ember Demo - Very Basic</title>
+
+</head>
+
+<body id="page-top" class="index">
+	{{navigation-bar pricing_data=model.pricing_data}}
+	{{hero-header learnMoreData=model.learnMore}}
+	{{rendering-web renderingWebData=model.renderingTheWeb}}
+	{{services-section services=model.services}}
+    {{team-section members=model.members companies=model.companies}}
+    {{contact-us response=model.contact_response}}
+    {{footer-section}}
+</body>
+
+</html>
+

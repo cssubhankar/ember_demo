@@ -1,0 +1,27 @@
+
+{{#bs-modal open=showModal backdropClose=false size='lg' onHidden=(action 'closeModal') as |modal|}}
+	{{#modal.header}}
+		<h4 class="modal-title">{{title}}</h4>
+	{{/modal.header}}
+	{{#modal.body}}
+		<div id="pricing" class="container">
+            <div class="row">
+            	{{#each pricing_data as |plan|}}
+	                <div class="col-md-4 "> 
+	                    <div class="table-columns">
+	                    	<ul class="price">
+	                            <li class="header {{plan.type}}" >{{plan.plan_name}}</li>
+	                            <li class="grey">{{plan.cost}}</li>
+	                            <li>{{plan.storage}}</li>
+	                            <li>{{plan.emails}}</li>
+	                            <li>{{plan.domains}}</li>
+	                            <li>{{plan.bandwidth}}</li>
+	                            <li class="grey"><a href="#" class="btn btn-lg btn-primary">Sign Up</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            {{/each}}
+            </div>
+        </div>
+	{{/modal.body}}
+{{/bs-modal}}

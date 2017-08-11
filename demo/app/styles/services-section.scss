@@ -1,0 +1,20 @@
+#services-section{
+	background-color:#333;
+	color:white;
+	text-align:center;
+	.heading{
+		text-align:center;
+	}	
+	.sub-heading{
+		p{
+			font-size: 15px;
+		    line-height: 30px;
+		    margin: auto;
+		    margin-bottom: 15px;
+			@media (min-width: 768px) {
+				font-size: 18px;
+				width: 50%;
+		    }
+		}
+	}
+}

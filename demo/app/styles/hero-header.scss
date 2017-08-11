@@ -1,0 +1,48 @@
+header {
+    background-image: url('../assets/images/office.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1000px rgba(128, 25, 202, 0.59);
+
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    
+        .intro-lead-in {
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 25px;
+            font-weight:700;
+
+        }
+        .intro-heading {
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 25px;
+        }
+        @media (min-width: 768px) {
+            padding-top: 300px;
+            padding-bottom: 200px;
+            .intro-lead-in {
+                font-size: 50px;
+                line-height: 50px;
+                margin-bottom: 25px;
+                font-weight:700;
+            }
+            .intro-heading {
+                font-size: 18px;
+                line-height: 30px;
+                width:50%;
+                margin:auto;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

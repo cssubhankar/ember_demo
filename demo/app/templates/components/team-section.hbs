@@ -1,0 +1,36 @@
+<section id="team-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="heading">
+					Our Team
+				</h2>
+				<div class="sub-heading"> 
+					<p class="text-muted">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			{{#each members as |member|}}
+				{{team-member member=member}}
+			{{/each}}
+		</div>
+	</div>
+</section>
+<aside id="clients">
+    <div class="container">
+        <div class="row">
+        	<ul class="list-inline clients-list">
+				{{#each companies as |company|}}
+					<li>
+						<a href="#">
+							<img src="{{company.company_logo}}" class="img-responsive img-centered" alt="{{company.company_name}}">
+						</a>
+					</li>
+				 {{/each}}
+			</ul>
+		</div>
+	</div>
+</aside>

@@ -1,0 +1,21 @@
+<section id="services-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="heading">
+					Services
+				</h2>
+				<div class="sub-heading"> 
+					<p class="text-muted">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			{{#each services as |service|}}
+				{{service-item service=service}}
+			{{/each}}
+		</div>  
+	</div>
+</section>

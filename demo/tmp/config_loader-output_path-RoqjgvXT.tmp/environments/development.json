@@ -1,0 +1,1 @@
+{"modulePrefix":"demo","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"demo","version":"0.0.0+b7236e98"},"ember-component-css":{"terseClassNames":false},"exportApplicationGlobal":true}

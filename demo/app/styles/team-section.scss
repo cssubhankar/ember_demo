@@ -1,0 +1,49 @@
+#team-section{
+	color:#333;
+	text-align:center;
+	padding-botton:10px;
+	.members{
+		margin:15px auto;
+		.img-member{
+			height:150px;
+			width:150px;
+			margin:0 auto;
+		}
+		h3{
+			color:#5b18ba;
+		}
+		h4{
+			color:#9a18ba;
+		}
+	}
+	.sub-heading{
+		p{
+			font-size: 15px;
+		    line-height: 30px;
+		    margin: auto;
+		    margin-bottom: 15px;
+			@media (min-width: 768px) {
+				font-size: 18px;
+				width: 50%;
+		    }
+		}
+	}
+	
+}
+#clients{
+	background-color:#5b18ba;
+	.clients-list{
+		text-align:center;
+		li{
+			vertical-align: middle;
+    		img{
+    			margin: 10px 30px;
+    			height:30px;
+    			@media (max-width: 767px) {
+    				margin: 10px 10px;
+    				height:20px;
+    			}
+    		}
+		}
+	}
+}

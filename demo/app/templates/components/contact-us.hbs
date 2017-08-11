@@ -1,0 +1,79 @@
+<section id="contact-us">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="heading">
+					Contact Us
+				</h2>
+				<div class="sub-heading"> 
+					<p class="text-muted">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row contact-form-section">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"> 
+				<div id="form-container">
+					{{#if success}}
+						{{#bs-alert type="success" onDismissed=(action 'showContactForm')}}
+							We received your Message, Our Respective Team meber will contact you soon. Thanks.
+						{{/bs-alert}}
+					{{else}}
+						<form name="sentMessage">
+							<div class="form-group">
+								{{input type="text" class="form-control" placeholder="Enter your Name" id="name" value=name}}
+								<p class="help-block alert-danger" style="display:{{if isError "block" "none"}} ">{{errors.name}}</p>
+							</div>
+							<div class="form-group">
+								{{input type="email" class="form-control" placeholder="Enter your email" id="email" value=email}}
+								<p class="help-block alert-danger" style="display:{{if isError "block" "none"}} ">{{errors.email}}</p>
+							</div>
+							<div class="form-group">
+								{{input type="phone" class="form-control" placeholder="Enter your phone" id="phone" value=phone}}
+								<p class="help-block alert-danger" style="display:{{if isError "block" "none"}} ">{{errors.phone}}</p>
+							</div>
+							<div class="form-group">
+								{{textarea class="form-control" placeholder="Enter your message..." id="message" value=message}}
+								<p class="help-block alert-danger" style="display:{{if isError "block" "none"}} ">{{errors.message}}</p>
+							</div>
+							<div class="form-group">
+								<button  {{action "sendMessage"}} type="submit" class="btn btn-lg btn-submit btn-primary"> Send Message </button>
+							</div>
+						</form>
+					{{/if}}
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="service-heading">Address</h4>
+				<p class="text-muted"> <i class="fa fa-map-marker"></i>
+					307 5th Ave, 16th Floor <br>
+					 New York, NY 10016
+				</p>
+				<h4 class="service-heading">Phone</h4>
+				<p class="text-muted"> 
+					<i class="fa fa-phone"></i> 212-222-1234
+				</p>
+				<h4 class="service-heading">Fax</h4>
+				<p class="text-muted"> 
+					<i class="fa fa-fax"></i> 212-630-7862
+				</p>    
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<h4 class="service-heading">Email</h4>
+				<p class="text-muted"> 
+					<i class="fa fa-envelope"></i> info@emberdemo.com
+				</p>
+				<h4 class="service-heading">Connect</h4>
+				<ul class="list-inline social-buttons">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa fa-pinterest-p"></i></a></li>
+					<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+				</ul>   
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>

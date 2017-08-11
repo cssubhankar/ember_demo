@@ -1,0 +1,1 @@
+/var/www/ember_demo_v2/demo/tmp/broccoli_merge_trees-input_base_path-tUvW7yBZ.tmp/0/modules/ember-data/setup-container.js

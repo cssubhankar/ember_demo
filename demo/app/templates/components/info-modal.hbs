@@ -1,0 +1,7 @@
+
+{{#bs-modal open=showModal backdropClose=false size='lg' onHidden=(action 'closeModal') as |modal|}}
+	{{#modal.header}}
+		<h4 class="modal-title">{{title}}</h4>
+	{{/modal.header}}
+	{{#modal.body}}{{{body}}}{{/modal.body}}
+{{/bs-modal}}

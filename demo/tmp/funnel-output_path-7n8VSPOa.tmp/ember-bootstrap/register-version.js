@@ -1,0 +1,1 @@
+/var/www/ember_demo_v2/demo/tmp/funnel-input_base_path-mU8LJC1f.tmp/ember-bootstrap/register-version.template

@@ -1,0 +1,54 @@
+#pricing{
+    display:inline;
+    .title {
+        display: block;
+        font-size: 30px;
+        margin:15px 0 10px;
+        padding: 0;
+        text-align: center;
+    }
+    .sub-title {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: #111;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .price {
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+  
+        &:hover {
+            box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+        }
+        li{
+            border-bottom: 1px solid #eee;
+            padding: 20px;
+            text-align: center;
+            &.header {
+                color: #ffffff;
+                font-size: 25px;
+            }
+            &.economy{
+                    background-color:#b9a9d8;
+            }
+            &.famous{
+                background-color:#4CAF50;
+            }
+            &.full{
+                background-color:#d06a6a;
+            }
+            &.grey {
+                background-color: #eee;
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
